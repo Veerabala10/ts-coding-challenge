@@ -14,9 +14,6 @@ importers:
       '@hashgraph/sdk':
         specifier: 2.66.0
         version: 2.66.0(bn.js@5.2.1)(react-native@0.78.0(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(react@19.0.0))
-      '@types/cucumber':
-        specifier: 7.0.3
-        version: 7.0.3
       '@types/node':
         specifier: 22.15.32
         version: 22.15.32
@@ -1063,10 +1060,6 @@ packages:
 
   '@types/babel__traverse@7.20.6':
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
-
-  '@types/cucumber@7.0.3':
-    resolution: {integrity: sha512-uBPVhCO2meZgiEICd+hTWFRn388vNljDuSppdenww2NJnwYF+HudlZQCGugbmcYLYdKw4NZyn1r+SiLU9aQu/g==}
-    deprecated: This is a stub types definition. @cucumber/cucumber provides its own type definitions, so you do not need this installed.
 
   '@types/graceful-fs@4.1.9':
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
@@ -4539,10 +4532,6 @@ snapshots:
   '@types/babel__traverse@7.20.6':
     dependencies:
       '@babel/types': 7.26.9
-
-  '@types/cucumber@7.0.3':
-    dependencies:
-      '@cucumber/cucumber': 11.3.0
 
   '@types/graceful-fs@4.1.9':
     dependencies:
